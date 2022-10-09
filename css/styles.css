@@ -1,5 +1,29 @@
+:root {
+  --brand-blue: #3f51b5;
+  --background-light: #ffffff;
+  --background-dark: #2f303a;
+  --font-normal: #212121;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
-  background-color: aqua;
-  color: blueviolet;
+  background-color: var(--background-light);
+  color: var(--font-normal);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--brand-blue);
+}
+
+.link:hover,
+.link.focus,
+.link:active {
+  color: var(--brand-blue);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--brand-blue);
 }
