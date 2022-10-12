@@ -1,11 +1,13 @@
 :root {
   --brand-blue: #2196f3;
-  --background-light: #ffffff;
+  --background-light: #eeeeee;
+  --background-white: #ffffff;
   --background-button: #f5f4fa;
   --background-dark: #2f303a;
   --font-normal: #757575;
   --font-dark: #212121;
   --font-light: #ffffff;
+  --font-black: #000000;
 }
 
 body {
@@ -22,11 +24,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
-  color: var(--font-dark);
+  color: var(--font-black);
+  text-decoration: none;
 }
 
 .contact {
   color: var(--font-normal);
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .contact:hover,
@@ -35,7 +40,9 @@ body {
 }
 
 .link {
-  color: var(--font-normal);
+  color: var(--font-dark);
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .link:hover,
@@ -53,6 +60,7 @@ body {
   font-weight: 500;
   line-height: 1.63;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button:hover,
@@ -65,6 +73,14 @@ body {
 .dark {
   background-color: var(--background-dark);
   color: var(--font-light);
+}
+
+.white {
+  background-color: var(--background-white);
+}
+
+.team {
+  background-color: var(--background-button);
 }
 
 .title {
@@ -93,4 +109,10 @@ body {
 
 .non-italic {
   font-style: normal;
+}
+
+.photo-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
 }
