@@ -8,6 +8,7 @@
   --font-dark: #212121;
   --font-light: #ffffff;
   --font-black: #000000;
+  --font-contact-footer: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -39,6 +40,16 @@ body {
   color: var(--brand-blue);
 }
 
+.contact-footer {
+  color: var(--font-contact-footer);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--brand-blue);
+}
 .link {
   color: var(--font-dark);
   text-decoration: none;
