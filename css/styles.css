@@ -105,14 +105,24 @@ body {
 
 .small-header {
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.17;
+  color: var(--font-dark);
+}
+
+.small-header-index {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--font-dark);
+}
+.small-header-portfolio {
+  font-size: 18px;
+  line-height: 2;
   color: var(--font-dark);
 }
 
 .big-header {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.17;
   color: var(--font-dark);
 }
@@ -122,7 +132,7 @@ body {
 }
 
 .photo-text {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.71;
 }
